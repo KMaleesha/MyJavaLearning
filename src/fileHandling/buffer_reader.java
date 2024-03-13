@@ -10,7 +10,6 @@ public class buffer_reader {
         try{
             BufferedReader  bufferedReader = new BufferedReader(new FileReader(file));
 
-
             String i;
             while ((i = bufferedReader.readLine()) != null){
                 System.out.println(i);
